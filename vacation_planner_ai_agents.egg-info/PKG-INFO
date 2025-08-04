@@ -1,0 +1,110 @@
+Metadata-Version: 2.4
+Name: vacation-planner-ai-agents
+Version: 0.1.0
+Summary: Add your description here
+Author: vacation planner
+Author-email: vacationplanner043@gmail.com
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+
+# 🧠✈️ Agentic AI-Based Vacation Planner
+
+## 📝 Brief
+
+This is a simple AI-based **vacation planner** powered by **Agentic AI** concepts. The goal is to build an intelligent assistant that can help users plan their vacations end-to-end using real-time data and smart planning capabilities.
+
+---
+
+## 🛠️ What We Are Building
+
+1. 🌤️ Real-time weather information (OpenWeatherMap API)
+2. 🗺️ Attractions and activities finder (Google Places / Foursquare)
+3. 🏨 Hotel cost estimation
+4. 💱 Currency conversion (Exchange Rate API)
+5. 📅 Itinerary planning with day-wise suggestions
+6. 💰 Total expense calculation
+7. 🧾 Generate a final summary (trip brief + recommendations)
+
+---
+
+## 📚 Resources
+
+- [OpenAI API](https://platform.openai.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+- [Foursquare Places API](https://developer.foursquare.com/)
+- [ExchangeRate API](https://www.exchangerate-api.com/)
+- [Tavilay API](https://tavilay.com) _(if applicable)_
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Initialize the environment with UV (a fast Python package manager):**
+
+   ```bash
+   uv init
+   ```
+
+2. **List available Python versions (optional):**
+
+   ```bash
+   uv python list
+   ```
+
+3. **Install Python 3.11.12 via UV:**
+
+   ```bash
+   uv python install cpython-3.11.12
+   ```
+
+4. **Create a virtual environment:**
+
+   ```bash
+   uv venv -p cpython-3.11.12 .venv
+   ```
+
+5. **Activate the virtual environment (Windows):**
+
+   ```bash
+   .venv\Scripts\activate
+   ```
+
+6. **Check installed packages:**
+
+   ```bash
+   uv pip list
+   ```
+
+7. **Install dependencies:**
+
+   ```bash
+   uv pip install -r requirements.txt
+   ```
+
+8. **Save your folder structure for reference:**
+   ```bash
+   tree /F > folder_structure.txt
+   ```
+
+---
+
+## 📌 Notes
+
+- Make sure you have all required **API keys** stored securely (e.g., in a `.env` file).
+- This project may use **agent-based planning**, meaning multiple AI components (agents) work together to complete tasks like booking, planning, and summarizing.
+- The project is modular and allows you to expand on each task using different APIs or models.
+
+---
+
+## ✅ Goals
+
+- Make vacation planning as seamless as talking to a human travel agent.
+- Use multiple tools and agents to collaborate and gather real-time, personalized info.
+- Make it fun, useful, and intuitive for users!
+
+---
+
+Happy building! 🌍🧳🚀
