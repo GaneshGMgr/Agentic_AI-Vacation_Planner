@@ -1,3 +1,4 @@
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from agent.agentic_workflow import GraphBuilder
 from utils.save_to_document import save_document
