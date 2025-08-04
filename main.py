@@ -69,7 +69,7 @@ async def query_travel_agent(query:QueryRequest):
 
         return {
             "answer": final_output,
-            "document": filename
+            "document": filename 
         }
     except Exception as e:
         traceback.print_exc()
