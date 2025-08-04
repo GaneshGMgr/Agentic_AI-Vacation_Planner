@@ -32,6 +32,6 @@ setup(
     version="0.0.1",
     author="vacation planner",
     author_email="vacationplanner043@gmail.com",
-    packages = find_packages(),
+    packages = find_packages(), 
     install_requires=get_requirements()
 )
